@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$Letter - The first ERC-20 onchain message token</title>
+    <style>
+        @font-face {
+            font-family: 'Chicago';
+            src: url('fonts/Chicago.ttf') format('truetype');
+        }
+        body {
+            font-family: 'Chicago', 'Geneva', 'sans-serif';
+            margin: 0;
+            padding: 0;
+            background-image: url('mac.jpg'); /* 배경 이미지 경로 */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .menu-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 24px;
+            background-color: #c0c0c0;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            font-size: 14px;
+            border-bottom: 2px solid #808080;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+        }
+        .menu-bar a {
+            margin-right: 20px;
+            color: black;
+            text-decoration: none;
+            font-weight: bold; /* 텍스트를 굵게 설정 */
+        }
+        .menu-bar a:hover {
+            text-decoration: underline;
+        }
+        .menu-bar img {
+            height: 18px;
+            margin-right: 25px;
+        }
+        .window {
+            width: 600px;
+            background-color: #fff;
+            border: 2px solid #000;
+            box-shadow: 2px 2px #404040;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 50px;
+        }
+        .title-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #c0c0c0;
+            color: black;
+            padding: 2px 5px;
+            font-size: 14px;
+            border-bottom: 2px solid #808080;
+            margin: -10px -10px 10px -10px;
+        }
+        .title-bar .buttons {
+            display: flex;
+            gap: 5px;
+        }
+        .title-bar .button {
+            width: 12px;
+            height: 12px;
+            background-color: #808080;
+            border: 1px solid #fff;
+            box-shadow: 1px 1px #404040;
+        }
+        .content {
+            padding: 10px;
+            background-color: white;
+            font-size: 12px;
+            line-height: 1.4;
+            color: black;
+            border: 1px solid #000;
+        }
+        .content h1, .content h2, .content p {
+            margin: 10px 0;
+        }
+        .content ul {
+            padding-left: 20px;
+        }
+        .content ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Mac OS 8 스타일 상단 바 -->
+    <div class="menu-bar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/30px-Apple_logo_black.svg.png" alt="Apple Logo">
+        <a href="https://x.com/TaxMacintosh" target="_blank">Twitter</a>
+        <a href="https://t.me/+76KSY47FfsA5Njc1" target="_blank">Telegram</a>
+        <a href="#" target="_blank">CA</a> <!-- 원하는 링크를 여기에 추가 -->
+    </div>
+
+    <div class="window">
+        <div class="title-bar">
+            <div class="buttons">
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+            </div>
+        </div>
+        <div class="content">
+            <h1>About Tax Macintoshi</h1>
+	<br>
+            <p>
+Inspired by Mac OS 8, TaxMacintosh is EtherVista's perfect friend and rival. Our goal is to catch up with EtherVista market capitalization and become the leader in MAGA.(Microsoft, Apple, Google, Amazon)</p>
+            <p>Let's make ethereum great again!</p>
+
+            <!-- 다섯 줄의 여백 추가 -->
+            <br><br>
+
+            <h2>Notes about installing Tax Mac OS 8</h2>
+            <ul>
+                <li>Buy TaxMac<br>
+                <li>Hodl until touch Ethervista's MC<br>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
